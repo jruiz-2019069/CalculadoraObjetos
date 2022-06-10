@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="403.0" prefWidth="329.0" style="-fx-background-color: #06131e;" styleClass="anchorPane" stylesheets="@../resource/CSSCalculadora.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.joseruiz.system.FXMLDocumentController">
+    <children>
+      <Button fx:id="btn2" layoutX="85.0" layoutY="273.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../resource/CSSCalculadora.css" text="2" textFill="#f5f5f5">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button fx:id="btn3" layoutX="147.0" layoutY="273.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../resource/CSSCalculadora.css" text="3" textFill="#f2f0f0">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button fx:id="btn0" layoutX="85.0" layoutY="332.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../resource/CSSCalculadora.css" text="0" textFill="#fcfcfc">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button fx:id="btn4" layoutX="21.0" layoutY="210.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../resource/CSSCalculadora.css" text="4" textFill="#f8f8f8">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button fx:id="btn5" layoutX="85.0" layoutY="210.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../resource/CSSCalculadora.css" text="5" textFill="#f8f8f8">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button fx:id="btn6" layoutX="147.0" layoutY="210.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../resource/CSSCalculadora.css" text="6" textFill="#fffbfb">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button fx:id="btn7" layoutX="21.0" layoutY="146.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../resource/CSSCalculadora.css" text="7" textFill="#fcfcfc">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button fx:id="btn8" layoutX="85.0" layoutY="146.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../resource/CSSCalculadora.css" text="8" textFill="#f8f8f8">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button fx:id="btn9" layoutX="147.0" layoutY="146.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../resource/CSSCalculadora.css" text="9" textFill="#fcfcfc">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect></Button>
+      <Button fx:id="btnSignos" layoutX="21.0" layoutY="332.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../resource/CSSCalculadora.css" text="+/-" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button fx:id="btnPunto" layoutX="147.0" layoutY="332.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../resource/CSSCalculadora.css" text="." textFill="#eeeeee">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button fx:id="btnPor" layoutX="208.0" layoutY="146.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../resource/CSSCalculadora.css" text="*" textFill="#f8f8f8">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button fx:id="btnMenos" layoutX="208.0" layoutY="210.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../resource/CSSCalculadora.css" text="-" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button fx:id="btnMas" layoutX="208.0" layoutY="273.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../resource/CSSCalculadora.css" text="+" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button fx:id="btnDivision" layoutX="208.0" layoutY="88.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../resource/CSSCalculadora.css" text="/" textFill="#f2f2f2">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button fx:id="btnIgual" layoutX="208.0" layoutY="332.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../resource/CSSCalculadora.css" text="=" textFill="#f8f8f8">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button fx:id="btnPotencia" layoutX="270.0" layoutY="88.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../resource/CSSCalculadora.css" text="X^Y" textFill="#fcfcfc">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+      <Button fx:id="btnValorAbsoluto" layoutX="270.0" layoutY="146.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../resource/CSSCalculadora.css" text="abs" textFill="#f5f5f5">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button fx:id="btnRaiz" layoutX="270.0" layoutY="210.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../resource/CSSCalculadora.css" text="√" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button fx:id="btnC" layoutX="22.0" layoutY="88.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../resource/CSSCalculadora.css" text="C" textFill="#f8f8f8">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button fx:id="btnCE" layoutX="85.0" layoutY="88.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../resource/CSSCalculadora.css" text="CE" textFill="#f8f8f8">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button fx:id="btnPorcentaje" layoutX="147.0" layoutY="88.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../resource/CSSCalculadora.css" text="\%" textFill="#f2f2f2">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <TextField fx:id="txtPantalla" alignment="CENTER_RIGHT" editable="false" layoutX="11.0" layoutY="24.0" prefHeight="40.0" prefWidth="307.0" promptText="0">
+         <font>
+            <Font name="Bodoni MT Condensed" size="21.0" />
+         </font>
+         <effect>
+            <DropShadow color="#ff7700" height="26.93" radius="15.1875" width="35.82" />
+         </effect>
+      </TextField>
+      <Button fx:id="btn1" layoutX="20.0" layoutY="273.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../resource/CSSCalculadora.css" text="1" textFill="#f8f8f8">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+    </children>
+</AnchorPane>
